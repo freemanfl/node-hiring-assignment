@@ -24,7 +24,7 @@ The task is designed to evaluate several aspects. The most important ones are:
 * Automatic Testing: Quality and coverage of automated tests.
 
 ## Expected Result
-Submit a Pull Request (PR) containing:
+Fork this repository and submit a pull request with your solution. Your submission should include the following:
 
 * Multiple commits reflecting your development process.
 * Fully working code.
