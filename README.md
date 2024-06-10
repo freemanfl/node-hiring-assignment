@@ -10,6 +10,7 @@ Design and implement a simple application for instant messaging where two or mor
 
 ## Instructions
 * Implement both backend and frontend, with a primary focus on the backend. The frontend should be as simple as possible, fulfilling its function with minimal effort.
+* Use TypeScript/Node.js on the backend. You're welcome to use TypeScript on the frontend as well but it's not required.
 * Emphasize the "instant" aspect. It is crucial that messages are delivered as quickly as possible to all users.
 * Remember, the frontend is not the focus. Ensure it works but keep it minimal.
 * Implement only one global group chat. No need for multiple groups or direct messages (DMs).
