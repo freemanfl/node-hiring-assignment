@@ -46,6 +46,10 @@ Make sure you have the following installed:
    ```bash
    npm install
    ```
+3. Build the application:
+   ```bash
+   npm build
+   ```
 
 ### Running the Application
 
