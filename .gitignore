@@ -1,0 +1,9 @@
+# Dependency directories
+node_modules/
+
+# Environment variables file (if applicable)
+.env
+
+# Build output
+/build/
+/dist/
