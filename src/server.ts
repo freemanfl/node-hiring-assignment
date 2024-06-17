@@ -11,6 +11,7 @@ import {
 } from "./utils/users";
 
 const PORT: number | string = process.env.PORT || 3000;
+const botName: string = "Mr. Paperclip Bot";
 
 const app = express();
 const server = http.createServer(app);
