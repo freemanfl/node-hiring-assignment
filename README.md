@@ -39,7 +39,7 @@ Make sure you have the following installed:
 
    ```bash
    git clone <repository-url>
-   cd hiring-junior-backend-developer-task
+   cd node-hiring-assignment
    ```
 
 2. Install dependencies:
