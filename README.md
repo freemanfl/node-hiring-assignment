@@ -1,35 +1,69 @@
-# Assignment for Junior Backend Developer applicant: Instant Messaging Application
+# hiring-junior-backend-developer-task
+
+Welcome to the Instant Messaging Application! This application allows users to connect and chat in real-time in a global group chat.
 
 ## Objective
-Design and implement a simple application for instant messaging where two or more people can connect and chat in real time.
+
+Design and implement a simple application for instant messaging where users can connect and chat in real-time. Emphasize the "instant" aspect, ensuring messages are delivered promptly to all connected users.
 
 ## User Story
-1. User opens the app and picks a name/nickname.
-1. User automatically joins the global group chat.
-1. User can type and send messages. Other users immediately receive them.
 
-## Instructions
-* Implement both backend and frontend, with a primary focus on the backend. The frontend should be as simple as possible, fulfilling its function with minimal effort.
-* Use TypeScript/Node.js on the backend. You're welcome to use TypeScript on the frontend as well but it's not required.
-* Emphasize the "instant" aspect. It is crucial that messages are delivered as quickly as possible to all users.
-* Remember, the frontend is not the focus. Ensure it works but keep it minimal.
-* Implement only one global group chat. No need for multiple groups or direct messages (DMs).
+1. User opens the app and chooses a name/nickname.
+2. User automatically joins the global group chat.
+3. User can send messages which are immediately received by all other users in the chat.
 
-## Evaluation Criteria
-The task is designed to evaluate several aspects. The most important ones are:
+## Features
 
-* Analysis and Overall Approach: How well you understand and approach the problem.
-* Design and Architecture: How you structure and design the solution.
-* Code Quality: Clean, readable, and maintainable code.
-* Working with Git: Effective use of version control with meaningful commit messages.
-* Automatic Testing: Quality and coverage of automated tests.
+- **Global Group Chat**: All users automatically join a single global group chat.
+- **Real-time Messaging**: Messages are delivered instantly to all connected users.
+- **Simple UI**: Minimal frontend focusing on functionality rather than aesthetics.
 
-## Expected Result
-Fork this repository and submit a pull request with your solution. Your submission should include the following:
+## Technologies Used
 
-* Multiple commits reflecting your development process.
-* Fully working code.
-* Automated tests ensuring the functionality of your code.
-* A README file with instructions on how to run the application.
+- **Backend**: TypeScript, Node.js, Express.js, Socket.IO
+- **Frontend**: HTML, CSS (minimal)
+- **Testing**: Jest (for backend testing)
 
-**Good luck! 🚀**
+## Getting Started
+
+### Prerequisites
+
+Make sure you have the following installed:
+
+- Node.js (v14 or above)
+- npm (Node Package Manager)
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone <repository-url>
+   cd hiring-junior-backend-developer-task
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+### Running the Application
+
+1. Start the server:
+
+   ```bash
+   npm start
+   ```
+
+2. Open your browser and go to:
+   ```
+   http://localhost:3000
+   ```
+
+## Testing
+
+To run tests, use the following command:
+
+```bash
+npm test
+```
