@@ -72,6 +72,8 @@ io.on("connection", (socket: socketio.Socket) => {
   });
 });
 
-server.listen(PORT, () => {});
+server.listen(PORT, () => {
+  console.log("Server started");
+});
 
 export default app;
