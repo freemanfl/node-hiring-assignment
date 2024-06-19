@@ -48,7 +48,7 @@ Make sure you have the following installed:
    ```
 3. Build the application:
    ```bash
-   npm build
+   npm run build
    ```
 
 ### Running the Application
@@ -56,7 +56,7 @@ Make sure you have the following installed:
 1. Start the server:
 
    ```bash
-   npm start
+   npm run start
    ```
 
 2. Open your browser and go to:
